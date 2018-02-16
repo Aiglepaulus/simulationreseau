@@ -332,8 +332,12 @@ int main()
     {
     case 'o':
         loading();
-
         cout <<"\n\t Message envoye a\t : "<< recepteurFind <<endl;
+        break;
+
+    case 'n':
+        cout <<"\n\t Message non envoye \t : "<<endl;
+        break;
 
 
     }
